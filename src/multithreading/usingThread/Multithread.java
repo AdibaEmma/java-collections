@@ -1,6 +1,4 @@
-package multithreading;
-
-import java.security.spec.ECField;
+package multithreading.usingThread;
 
 //The Thread Class
 class MultithreadingDemo extends Thread {

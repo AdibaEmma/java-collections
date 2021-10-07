@@ -1,4 +1,4 @@
-package com.aweperi;
+package collections;
 
 import java.util.Iterator;
 import java.util.Stack;

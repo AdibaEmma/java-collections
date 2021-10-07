@@ -1,4 +1,4 @@
-package com.aweperi.queues;
+package collections.queues;
 
 import java.util.PriorityQueue;
 

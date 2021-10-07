@@ -1,4 +1,4 @@
-package com.aweperi.sets;
+package collections.sets;
 
 import java.util.HashSet;
 
