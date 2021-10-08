@@ -3,14 +3,16 @@ package multithreading.synchronization;
 import java.io.StringReader;
 
 class Sender {
-    public void send(String msg) {
-        System.out.println("Sending\t" + msg);
-        try {
-            Thread.sleep(1000);
-        } catch (Exception e) {
-            System.out.println("Thread interrupted.");
-        }
-        System.out.println("\n" + msg + "Sent");
+    public  void send(String msg) {
+       synchronized (this) {
+           System.out.println("Sending\t" + msg);
+           try {
+               Thread.sleep(1000);
+           } catch (Exception e) {
+               System.out.println("Thread interrupted.");
+           }
+           System.out.println("\n" + msg + "Sent");
+       }
     }
 }
 
@@ -27,10 +29,7 @@ class  ThreadedSend extends Thread {
 
     // Only one thread can send a message at a time
     public void run() {
-        synchronized(sender) {
-            // synchronizing the snd object
-            sender.send(msg);
-        }
+        sender.send(msg);
     }
 }
 // Driver Class
