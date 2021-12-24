@@ -1,0 +1,42 @@
+package com.aweperi.oop;
+
+public class Employee {
+    private int baseSalary;
+    public int hourlyRate;
+
+    public Employee(int baseSalary) {
+        this(baseSalary, 0);
+    }
+
+    public Employee(int baseSalary, int hourlyRate) {
+        setBaseSalary(baseSalary);
+        setHourlyRate(hourlyRate);
+    }
+
+    private int getBaseSalary() {
+        return baseSalary;
+    }
+
+    private void setBaseSalary(int baseSalary) {
+        if (baseSalary <= 0) throw new IllegalArgumentException("Salary cannot be less than or equal to zero");
+        this.baseSalary = baseSalary;
+    }
+
+    private int getHourlyRate() {
+        return hourlyRate;
+    }
+
+    private void setHourlyRate(int hourlyRate) {
+        if (hourlyRate <= 0) throw new IllegalArgumentException("Hourly rate must be a positive number");
+        this.hourlyRate = hourlyRate;
+    }
+
+    public int calculateWage(int extraHours) {
+        return getBaseSalary() + (getHourlyRate() * extraHours);
+    }
+
+    public int calculateWage() {
+        return calculateWage(0);
+    }
+
+}
