@@ -1,4 +1,4 @@
-package project1;
+package mortgageProject;
 
 import java.util.Scanner;
 

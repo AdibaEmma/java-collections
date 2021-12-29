@@ -1,6 +1,4 @@
-package project1;
-
-import java.text.NumberFormat;
+package mortgageProject;
 
 import static java.lang.Math.pow;
 

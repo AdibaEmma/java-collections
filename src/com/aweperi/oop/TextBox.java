@@ -1,5 +1,7 @@
 package com.aweperi.oop;
 
+import com.aweperi.inheritance.UIControl;
+
 public class TextBox {
     public String text;
 

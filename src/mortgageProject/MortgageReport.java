@@ -1,23 +1,25 @@
-package project1;
+package mortgageProject;
 
 import java.text.NumberFormat;
 
 public class MortgageReport {
+    private final NumberFormat currency;
     private MortgageCalculator mortgageCalculator;
 
     public MortgageReport(MortgageCalculator mortgageCalculator) {
         this.mortgageCalculator = mortgageCalculator;
+        currency = NumberFormat.getCurrencyInstance();
     }
     public void printPaymentSchedule() {
         System.out.println("LOAN BALANCE \n ___________");
 
         for(double balance : mortgageCalculator.getRemainingBalances())
-            System.out.println(NumberFormat.getCurrencyInstance().format(balance));
+            System.out.println(currency.format(balance));
     }
 
     public void printMortgage() {
         double mortgage = mortgageCalculator.calculateMortgage();
-        String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
+        String mortgageFormatted = currency.format(mortgage);
         System.out.println("MORTGAGE \n________");
         System.out.println("Monthly Payments: " + mortgageFormatted);
         System.out.println("Total Payment: " + mortgageFormatted);

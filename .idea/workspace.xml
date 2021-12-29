@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="" />
+    <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/inheritance/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/inheritance/UIControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmingwithmosh/codewithmosh/FizzBuzz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmingwithmosh/codewithmosh/Mortgage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmingwithmosh/codewithmosh/Temperature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmingwithmosh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/programmingwithmosh.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codewithmosh/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicsProject/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codewithmosh/Mortgage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicsProject/Mortgage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codewithmosh/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicsProject/Temperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/oop/TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/oop/TextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project1/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mortgageProject/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mortgageProject/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project1/MortgageCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mortgageProject/MortgageCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project1/MortgageReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mortgageProject/MortgageReport.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,11 +48,15 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/project1/MortgageReport.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/project1/Console.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/project1/Main.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/project1/MortgageCalculator.java" root0="FORCE_HIGHLIGHTING" />
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="minikube" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="1z4zZ8MZAm8XBIGRFwsczRNFe07" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,16 +68,40 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TLC/TLC Trading Project" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Mortgage">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aweperi.inheritance" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codewithmosh.FizzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="basicsProject.FizzBuzz" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codewithmosh.*" />
+          <option name="PATTERN" value="basicsProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.inheritance.Main" />
+      <module name="programmingwithmosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aweperi.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,11 +110,11 @@
       </method>
     </configuration>
     <configuration name="Mortgage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codewithmosh.Mortgage" />
+      <option name="MAIN_CLASS_NAME" value="basicsProject.Mortgage" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codewithmosh.*" />
+          <option name="PATTERN" value="basicsProject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,11 +123,11 @@
       </method>
     </configuration>
     <configuration name="Temperature" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codewithmosh.Temperature" />
+      <option name="MAIN_CLASS_NAME" value="basicsProject.Temperature" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codewithmosh.*" />
+          <option name="PATTERN" value="basicsProject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Mortgage" />
         <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.Temperature" />
@@ -95,13 +147,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2fa739cc-54ec-4400-8b46-0ebd842a9b32" name="Changes" comment="" />
+      <changelist id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code" />
       <created>1633422203762</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633422203762</updated>
+      <workItem from="1640354223310" duration="9582000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -113,5 +169,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/mortgageProject/MortgageReport.java</url>
+          <line>19</line>
+          <properties class="mortgageProject.MortgageReport" method="printMortgage">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
