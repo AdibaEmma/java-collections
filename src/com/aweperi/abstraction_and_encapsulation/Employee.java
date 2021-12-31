@@ -1,4 +1,4 @@
-package com.aweperi.oop;
+package com.aweperi.abstraction_and_encapsulation;
 
 public class Employee {
     private int baseSalary;

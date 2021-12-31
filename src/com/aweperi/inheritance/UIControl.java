@@ -14,4 +14,7 @@ public class UIControl {
     public boolean isEnabled() {
         return isEnabled;
     }
+
+    public void render() {
+    }
 }

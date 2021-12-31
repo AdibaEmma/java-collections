@@ -1,6 +1,4 @@
-package com.aweperi.oop;
-
-import com.aweperi.inheritance.UIControl;
+package com.aweperi.abstraction_and_encapsulation;
 
 public class TextBox {
     public String text;
