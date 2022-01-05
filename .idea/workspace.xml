@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/TaxCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/polymorphism/CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/polymorphism/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/TaxCalculatorImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structures/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structures/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structures/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/Array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/FormattingNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/Strings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/inheritance/UIControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/inheritance/UIControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/oop/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/abstraction_and_encapsulation/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/abstraction_and_encapsulation/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/oop/TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/abstraction_and_encapsulation/TextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/interfaces/TaxCalculatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/TaxCalculatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/interfaces/TaxReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/TaxReport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,6 +53,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -66,6 +66,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -84,13 +88,13 @@
       <recent name="com.aweperi.inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicsProject.FizzBuzz" />
+  <component name="RunManager" selected="Application.Queue">
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data_structures.LinkedList" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicsProject.*" />
+          <option name="PATTERN" value="data_structures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aweperi.polymorphism.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.interfaces.Main" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aweperi.polymorphism.*" />
+          <option name="PATTERN" value="com.aweperi.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mortgage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicsProject.Mortgage" />
+    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data_structures.Queue" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicsProject.*" />
+          <option name="PATTERN" value="data_structures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temperature" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicsProject.Temperature" />
+    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data_structures.Stack" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicsProject.*" />
+          <option name="PATTERN" value="data_structures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Queue" />
+        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Stack" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Mortgage" />
-        <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.Temperature" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +172,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633422203762</updated>
-      <workItem from="1640354223310" duration="18828000" />
+      <workItem from="1640354223310" duration="39116000" />
+      <workItem from="1641384518741" duration="299000" />
     </task>
     <servers />
   </component>

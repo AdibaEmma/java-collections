@@ -1,14 +1,20 @@
 package com.aweperi.interfaces;
 
 public class TaxReport {
-    private TaxCalculatorImpl calculator;
+    private TaxCalculator calculator;
 
-    public TaxReport() {
-        calculator = new TaxCalculatorImpl(1_000);
-    }
+//    public TaxReport(TaxCalculator calculator) {
+//        this.calculator = calculator;
+//    }
 
-    public void show() {
+    // method injection
+    public void show(TaxCalculator calculator) {
         var tax = calculator.calculateTax();
         System.out.println(tax);
     }
+
+    // setter injection
+//    public void setCalculator(TaxCalculator calculator) {
+//        this.calculator = calculator;
+//    }
 }
