@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/TaxCalculatorImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structures/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structures/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structures/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/interfaces/TaxCalculatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/TaxCalculatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/interfaces/TaxReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/TaxReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmingwithmosh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/programmingwithmosh.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/queues/ArrayDeques.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/queues/ArrayDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/abstraction_and_encapsulation/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/abstraction_and_encapsulation/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/interfaces/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structures/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/data_structures/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structures/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/data_structures/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structures/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/data_structures/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +76,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TLC/TLC Trading Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Jar Files/jsoup-1.14.3.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.43908045" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -88,7 +89,7 @@
       <recent name="com.aweperi.inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Queue">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data_structures.LinkedList" />
       <module name="programmingwithmosh" />
@@ -156,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Queue" />
-        <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Stack" />
+        <item itemvalue="Application.Queue" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +174,16 @@
       <option name="presentableId" value="Default" />
       <updated>1633422203762</updated>
       <workItem from="1640354223310" duration="39116000" />
-      <workItem from="1641384518741" duration="299000" />
+      <workItem from="1641384518741" duration="1348000" />
+      <workItem from="1641385908356" duration="1195000" />
+      <workItem from="1641393543580" duration="35728000" />
+      <workItem from="1641768676109" duration="12333000" />
+      <workItem from="1641891540112" duration="26179000" />
+      <workItem from="1642242555573" duration="15252000" />
+      <workItem from="1642501312735" duration="594000" />
+      <workItem from="1642560545470" duration="1188000" />
+      <workItem from="1642596575859" duration="1219000" />
+      <workItem from="1642890879089" duration="6186000" />
     </task>
     <servers />
   </component>
@@ -205,5 +215,13 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="sum[i][j]" language="JAVA" />
+        <watch expression="pyramid[i + 1][j]" language="JAVA" />
+        <watch expression="pyramid[i + 1][j + 1]" language="JAVA" />
+        <watch expression="sum[0][0]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

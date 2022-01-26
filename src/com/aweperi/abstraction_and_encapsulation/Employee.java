@@ -2,7 +2,7 @@ package com.aweperi.abstraction_and_encapsulation;
 
 public class Employee {
     private int baseSalary;
-    public int hourlyRate;
+    private int hourlyRate;
 
     public Employee(int baseSalary) {
         this(baseSalary, 0);
@@ -18,7 +18,7 @@ public class Employee {
     }
 
     private void setBaseSalary(int baseSalary) {
-        if (baseSalary <= 0) throw new IllegalArgumentException("Salary cannot be less than or equal to zero");
+        if (baseSalary <= 0) throw new IllegalArgumentException("Salary cannot be 0 or less.");
         this.baseSalary = baseSalary;
     }
 
