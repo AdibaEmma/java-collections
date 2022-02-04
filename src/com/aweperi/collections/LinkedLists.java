@@ -7,19 +7,19 @@ The elements are linked using pointers and addresses. Each element is known as a
  */
 public class LinkedLists {
     public static void main(String[] args) {
-        LinkedList<Integer> ll = new LinkedList<Integer>();
+        LinkedList<Integer> linkedList = new LinkedList<Integer>();
             for (int i = 1; i <= 5; i++) {
-            ll.add(i);
+            linkedList.add(i);
         }
-        System.out.println(ll);
+        System.out.println(linkedList);
 
-        ll.remove(3);
-        System.out.println(ll);
+        linkedList.remove(3);
+        System.out.println(linkedList);
 
-        for (int i = 0; i < ll.size(); i++) {
-            System.out.print(ll.get(i) + " ");
+        for (int i = 0; i < linkedList.size(); i++) {
+            System.out.print(linkedList.get(i) + " ");
         }
 
-        System.out.println(ll.getClass());
+        System.out.println(linkedList.getClass());
     }
 }

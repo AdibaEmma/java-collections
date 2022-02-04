@@ -12,7 +12,6 @@ Let's understand the arraylist with the following example:
 public class ArrayLists {
 
     public static void main(String[] args) {
-	// write your code here
         ArrayList<Integer> al = new ArrayList<Integer>();
 
         for(int i =1; i <= 5; i++)

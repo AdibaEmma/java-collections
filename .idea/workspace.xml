@@ -2,15 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/exceptions/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/exceptions/AccountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/exceptions/ExceptionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/exceptions/InsufficientFundsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/exceptions/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/generics/GenericList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/generics/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/generics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/generics/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/generics/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/Draggable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/Resizeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/UIWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/SqlVideoDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/VideoDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/VideoEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/VideoEncoderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/VideoProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmingwithmosh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/programmingwithmosh.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/queues/ArrayDeques.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/queues/ArrayDeque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aweperi/abstraction_and_encapsulation/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/abstraction_and_encapsulation/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/interfaces/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structures/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/data_structures/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structures/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/data_structures/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structures/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/data_structures/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/abstraction_and_encapsulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/abstraction_and_encapsulation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/inheritance/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/inheritance/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/interfaces/TaxReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/TaxReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/mortgageProject/MortgageReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/mortgageProject/MortgageReport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +44,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
@@ -85,17 +106,24 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.aweperi.myTubeProj" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.aweperi.myTubeProj" />
+      <recent name="com.aweperi.interfaces" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.aweperi.inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data_structures.LinkedList" />
+  <component name="RunManager" selected="Application.Main (4)">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.myTubeProj.Main" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data_structures.*" />
+          <option name="PATTERN" value="com.aweperi.myTubeProj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +131,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aweperi.interfaces.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.mortgageProject.Main" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aweperi.interfaces.*" />
+          <option name="PATTERN" value="com.aweperi.mortgageProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.generics.Main" />
+      <module name="programmingwithmosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aweperi.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +158,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aweperi.inheritance.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.exceptions.Main" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aweperi.inheritance.*" />
+          <option name="PATTERN" value="com.aweperi.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,39 +170,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data_structures.Queue" />
-      <module name="programmingwithmosh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data_structures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data_structures.Stack" />
-      <module name="programmingwithmosh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data_structures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/aweperi/test.js" working-dir="$PROJECT_DIR$/src/com/aweperi">
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Stack" />
-        <item itemvalue="Application.Queue" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Node.js.test.js" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +201,10 @@
       <workItem from="1642501312735" duration="594000" />
       <workItem from="1642560545470" duration="1188000" />
       <workItem from="1642596575859" duration="1219000" />
-      <workItem from="1642890879089" duration="6186000" />
+      <workItem from="1642890879089" duration="28204000" />
+      <workItem from="1643631793355" duration="1443000" />
+      <workItem from="1643643378380" duration="6873000" />
+      <workItem from="1643812466126" duration="4486000" />
     </task>
     <servers />
   </component>
@@ -202,19 +223,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/mortgageProject/MortgageReport.java</url>
-          <line>19</line>
-          <properties class="mortgageProject.MortgageReport" method="printMortgage">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="sum[i][j]" language="JAVA" />

@@ -3,6 +3,7 @@ package com.aweperi.abstraction_and_encapsulation;
 public class Employee {
     private int baseSalary;
     private int hourlyRate;
+    public static int numberOfEmployees;
 
     public Employee(int baseSalary) {
         this(baseSalary, 0);
@@ -11,6 +12,7 @@ public class Employee {
     public Employee(int baseSalary, int hourlyRate) {
         setBaseSalary(baseSalary);
         setHourlyRate(hourlyRate);
+        numberOfEmployees++;
     }
 
     private int getBaseSalary() {
@@ -27,7 +29,7 @@ public class Employee {
     }
 
     private void setHourlyRate(int hourlyRate) {
-        if (hourlyRate <= 0) throw new IllegalArgumentException("Hourly rate must be a positive number");
+        if (hourlyRate < 0) throw new IllegalArgumentException("Hourly rate must be a positive number");
         this.hourlyRate = hourlyRate;
     }
 
@@ -35,8 +37,9 @@ public class Employee {
         return getBaseSalary() + (getHourlyRate() * extraHours);
     }
 
-    public int calculateWage() {
-        return calculateWage(0);
-    }
+    public int calculateWage() { return calculateWage(0); }
 
+    public static void printNumberOfEmployees() {
+        System.out.println(numberOfEmployees);
+    }
 }

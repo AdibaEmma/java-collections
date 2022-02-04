@@ -5,9 +5,9 @@ public class Main {
         Employee employee = new Employee(50_000, 20);
         int wage = employee.calculateWage(10);
         System.out.println(wage);
+        var employee1 = new Employee(500_000);
+        System.out.println(employee1.calculateWage());
+        Employee.printNumberOfEmployees();
     }
 
-    public static int calculateWage(int baseSalary, int extraHours, int hourlyRate) {
-        return baseSalary + (extraHours * hourlyRate);
-    }
 }
