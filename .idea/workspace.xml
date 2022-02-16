@@ -2,35 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/exceptions/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/exceptions/AccountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/exceptions/ExceptionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/exceptions/InsufficientFundsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/exceptions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/generics/GenericList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/generics/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/generics/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/generics/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/generics/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/Draggable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/Resizeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/UIWidget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/EmailNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/SqlVideoDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/VideoDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/VideoEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/VideoEncoderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/myTubeProj/VideoProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/AlternateCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/ArrayDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/CalculateBMI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/CalculateFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/CamelCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/ConfirmPrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/CountPassengers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/DisplayFibonacciSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/FindIntegerCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/GetGreatestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/GetVowelCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/JadenCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/JosephusPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/LongestSlideDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/OddOrEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/PredictAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/SortDescendingOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/collections/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/collections/EmailComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/collections/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/collections/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/collections/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/collections/QueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/collections/SetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/abstraction_and_encapsulation/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/abstraction_and_encapsulation/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/abstraction_and_encapsulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/abstraction_and_encapsulation/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/inheritance/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/inheritance/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/interfaces/TaxReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/TaxReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/mortgageProject/MortgageReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/mortgageProject/MortgageReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/codewars/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/collections/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/collections/CollectionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/dsa/data_structures/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/dsa/data_structures/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/exceptions/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/exceptions/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/exceptions/ExceptionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/exceptions/ExceptionsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,17 +99,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Jar Files/jsoup-1.14.3.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../News Aggregator/news-aggregator" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.43908045" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.aweperi.codewars" />
       <recent name="com.aweperi.myTubeProj" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.aweperi.codewars.ConfirmPrimeNumber" />
+      <recent name="com.aweperi.codewars.OddOrEven" />
+      <recent name="com.aweperi.codewars.GetGreatestNumber" />
+      <recent name="com.aweperi.codewars.SortDescendingOrder" />
+      <recent name="com.aweperi.codewars.CountPassengers" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.aweperi.myTubeProj" />
@@ -117,13 +127,13 @@
       <recent name="com.aweperi.inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aweperi.myTubeProj.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.collections.Main" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aweperi.myTubeProj.*" />
+          <option name="PATTERN" value="com.aweperi.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,10 +185,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
@@ -204,7 +214,11 @@
       <workItem from="1642890879089" duration="28204000" />
       <workItem from="1643631793355" duration="1443000" />
       <workItem from="1643643378380" duration="6873000" />
-      <workItem from="1643812466126" duration="4486000" />
+      <workItem from="1643812466126" duration="14703000" />
+      <workItem from="1644245490299" duration="3632000" />
+      <workItem from="1644416940848" duration="1830000" />
+      <workItem from="1644500210373" duration="17208000" />
+      <workItem from="1645002160695" duration="1660000" />
     </task>
     <servers />
   </component>
@@ -231,5 +245,9 @@
         <watch expression="sum[0][0]" language="JAVA" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

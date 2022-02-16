@@ -4,7 +4,7 @@ package com.aweperi.dsa.data_structures;
 
 public class Queue {
     int SIZE = 5;
-    int items[] = new int[SIZE];
+    int[] items = new int[SIZE];
     int front, rear;
 
     Queue() {

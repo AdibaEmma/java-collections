@@ -15,7 +15,7 @@ public class ExceptionsDemo {
         try {
             account.deposit(-1);
         } catch (IOException e) {
-            System.out.println("Logging");
+            System.out.println(e.getMessage());
         }
 
         try {
