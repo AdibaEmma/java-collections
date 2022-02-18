@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/lambdas/LambdasDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/lambdas/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/lambdas/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/streams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/streams/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/streams/StreamsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/streams/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/streams/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/streams/StreamsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/streams/StreamsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +194,7 @@
       <workItem from="1645014327152" duration="1826000" />
       <workItem from="1645090209480" duration="5044000" />
       <workItem from="1645134906789" duration="377000" />
-      <workItem from="1645170866864" duration="3858000" />
+      <workItem from="1645170866864" duration="6712000" />
     </task>
     <servers />
   </component>
