@@ -12,6 +12,10 @@ public class StreamsDemo {
                 new Movie("Panda", 1500)
         );
 
+        // Map
+        movies.stream()
+                .map(Movie::getLikes)
+                .forEach(like -> System.out.println(like));
 
 
     }
