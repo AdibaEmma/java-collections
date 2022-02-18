@@ -28,6 +28,11 @@ public class StreamsDemo {
                 .filter(isPopular)
                 .forEach(m -> System.out.println(m));
 
+        // Slicing
+        movies.stream()
+                .skip(1)
+                .limit(1)
+                .forEach(m -> System.out.println(m));
 
     }
 }
