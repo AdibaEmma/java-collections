@@ -17,6 +17,11 @@ public class StreamsDemo {
                 .map(Movie::getLikes)
                 .forEach(like -> System.out.println(like));
 
+        //Flatmap
+        Stream.of(List.of(1,2,3),List.of(4,5,6))
+                .flatMap(list -> list.stream())
+                .forEach(n -> System.out.println(n));
+
 
     }
 }
