@@ -2,37 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/AlternateCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/ArrayDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/CalculateBMI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/CalculateFactorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/CamelCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/ConfirmPrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/CountPassengers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/DisplayFibonacciSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/FindIntegerCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/GetGreatestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/GetVowelCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/JadenCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/JosephusPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/LongestSlideDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/OddOrEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/PredictAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/SortDescendingOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/collections/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/collections/EmailComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/collections/ListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/collections/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/collections/MapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/collections/QueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/collections/SetDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/lambdas/LambdasDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/lambdas/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/lambdas/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/streams/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/streams/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/streams/StreamsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/codewars/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/codewars/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/collections/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/collections/CollectionsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/dsa/data_structures/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/dsa/data_structures/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/exceptions/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/exceptions/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/exceptions/ExceptionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/exceptions/ExceptionsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JavaScript File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -129,11 +105,11 @@
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aweperi.collections.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.streams.Main" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aweperi.collections.*" />
+          <option name="PATTERN" value="com.aweperi.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,8 +162,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
       </list>
@@ -218,7 +194,11 @@
       <workItem from="1644245490299" duration="3632000" />
       <workItem from="1644416940848" duration="1830000" />
       <workItem from="1644500210373" duration="17208000" />
-      <workItem from="1645002160695" duration="1660000" />
+      <workItem from="1645002160695" duration="5662000" />
+      <workItem from="1645014327152" duration="1826000" />
+      <workItem from="1645090209480" duration="5044000" />
+      <workItem from="1645134906789" duration="377000" />
+      <workItem from="1645170866864" duration="3858000" />
     </task>
     <servers />
   </component>
