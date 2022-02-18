@@ -22,6 +22,12 @@ public class StreamsDemo {
                 .flatMap(list -> list.stream())
                 .forEach(n -> System.out.println(n));
 
+        //Filter
+        Predicate<Movie> isPopular = movie -> movie.getLikes() > 1000;
+        movies.stream()
+                .filter(isPopular)
+                .forEach(m -> System.out.println(m));
+
 
     }
 }
