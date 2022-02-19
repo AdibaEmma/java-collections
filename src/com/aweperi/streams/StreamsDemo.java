@@ -2,6 +2,7 @@ package com.aweperi.streams;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
@@ -42,5 +43,13 @@ public class StreamsDemo {
         movies.stream()
                 .sorted(Comparator.comparing(Movie::getRating).reversed())
                 .forEach(System.out::println);
+
+        //reducers
+        var totalLikes = movies.stream()
+                .map(Movie::getLikes)
+                .reduce(0,Integer::sum);
+
+        System.out.println(totalLikes);
+
     }
 }
