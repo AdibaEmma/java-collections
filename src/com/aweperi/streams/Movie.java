@@ -2,11 +2,13 @@ package com.aweperi.streams;
 
 public class Movie {
     private final String title;
+    private Genre genre;
     private final int likes;
     private final int rating;
 
-    public Movie(String title, int likes, int rating) {
+    public Movie(String title, Genre genre, int likes, int rating) {
         this.title = title;
+        this.genre = genre;
         this.likes = likes;
         this.rating = rating;
     }
@@ -23,10 +25,15 @@ public class Movie {
         return rating;
     }
 
+    public Genre getGenre() {
+        return genre;
+    }
+
     @Override
     public String toString() {
         return "Movie{" +
                 "title='" + title + '\'' +
+                ", genre=" + genre +
                 ", likes=" + likes +
                 ", rating=" + rating +
                 '}';

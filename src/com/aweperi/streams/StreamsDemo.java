@@ -2,19 +2,16 @@ package com.aweperi.streams;
 
 import java.util.Comparator;
 import java.util.List;
-import java.util.Optional;
-import java.util.function.Predicate;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class StreamsDemo {
     public static void show() {
         var movies = List.of(
-                new Movie("Kate", 1000, 4),
-                new Movie("Panda", 1500, 5),
-                new Movie("Lucy", 4000, 3),
-                new Movie("Iron Man", 1500, 4),
-                new Movie("Harry Potter", 1500, 5)
+                new Movie("Kate", Genre.ACTION, 1000, 4),
+                new Movie("Panda", Genre.COMEDY, 1500, 5),
+                new Movie("Lucy", Genre.ACTION, 4000, 3),
+                new Movie("Iron Man", Genre.ACTION, 1500, 4),
+                new Movie("Harry Potter", Genre.THRILL, 1500, 5)
         );
 
 //        // Map
@@ -57,6 +54,11 @@ public class StreamsDemo {
                 .map(Movie::getTitle)
                 .collect(Collectors.joining(","));
         System.out.println(result);
+
+        //grouping
+        var genreMap = movies.stream()
+                .collect(Collectors.groupingBy(Movie::getGenre, Collectors.counting()));
+        System.out.println(genreMap);
 
     }
 }
