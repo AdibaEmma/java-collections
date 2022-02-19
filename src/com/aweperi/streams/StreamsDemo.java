@@ -4,6 +4,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamsDemo {
@@ -50,6 +51,12 @@ public class StreamsDemo {
                 .reduce(0,Integer::sum);
 
         System.out.println(totalLikes);
+
+        // collectors
+        var result = movies.stream()
+                .map(Movie::getTitle)
+                .collect(Collectors.joining(","));
+        System.out.println(result);
 
     }
 }
