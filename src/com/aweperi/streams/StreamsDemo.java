@@ -2,6 +2,7 @@ package com.aweperi.streams;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class StreamsDemo {
@@ -14,6 +15,7 @@ public class StreamsDemo {
                 new Movie("Harry Potter", Genre.THRILL, 1500, 5)
         );
 
+        Predicate<Movie> isSuperAwesome = m -> m.getRating() > 4;
 //        // Map
 //        movies.stream()
 //                .map(Movie::getLikes)
@@ -31,34 +33,41 @@ public class StreamsDemo {
 //                .forEach(m -> System.out.println(m));
 
         // Slicing
-//        Predicate<Movie> isSuperAwesome = m -> m.getRating() > 4;
+//
 //        movies.stream()
 //                .skip(1)
 //                .takeWhile(isSuperAwesome)
 //                .forEach(m -> System.out.println(m.getTitle()));
 
-        //Sorting
-        movies.stream()
-                .sorted(Comparator.comparing(Movie::getRating).reversed())
-                .forEach(System.out::println);
+//        //Sorting
+//        movies.stream()
+//                .sorted(Comparator.comparing(Movie::getRating).reversed())
+//                .forEach(System.out::println);
+//
+//        //reducers
+//        var totalLikes = movies.stream()
+//                .map(Movie::getLikes)
+//                .reduce(0,Integer::sum);
+//
+//        System.out.println(totalLikes);
+//
+//        // collectors
+//        var result = movies.stream()
+//                .map(Movie::getTitle)
+//                .collect(Collectors.joining(","));
+//        System.out.println(result);
+//
+//        //grouping
+//        var genreMap = movies.stream()
+//                .collect(Collectors.groupingBy(Movie::getGenre, Collectors.counting()));
+//        System.out.println(genreMap);
 
-        //reducers
-        var totalLikes = movies.stream()
-                .map(Movie::getLikes)
-                .reduce(0,Integer::sum);
+        //partitioning
+        var partitionedMovies = movies.stream()
+                .collect(Collectors.partitioningBy(isSuperAwesome,
+                        Collectors.mapping(Movie::getTitle,Collectors.joining(", "))));
+        System.out.println(partitionedMovies);
 
-        System.out.println(totalLikes);
-
-        // collectors
-        var result = movies.stream()
-                .map(Movie::getTitle)
-                .collect(Collectors.joining(","));
-        System.out.println(result);
-
-        //grouping
-        var genreMap = movies.stream()
-                .collect(Collectors.groupingBy(Movie::getGenre, Collectors.counting()));
-        System.out.println(genreMap);
 
     }
 }
