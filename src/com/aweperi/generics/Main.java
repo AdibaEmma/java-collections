@@ -5,5 +5,7 @@ public class Main {
         var max = Utils.max(new User(10), new User(20));
         System.out.println(max);
         Utils.print("Emma", new User(50));
+        Utils.printUser(new Instructor(20));
+        Utils.printUsers(new GenericList<Instructor>());
     }
 }

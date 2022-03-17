@@ -1,6 +1,5 @@
 package com.aweperi.streams;
 
-import java.util.Comparator;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -14,6 +13,8 @@ public class StreamsDemo {
                 new Movie("Iron Man", Genre.ACTION, 1500, 4),
                 new Movie("Harry Potter", Genre.THRILL, 1500, 5)
         );
+
+        var string = "123456789";
 
         Predicate<Movie> isSuperAwesome = m -> m.getRating() > 4;
 //        // Map
@@ -62,11 +63,17 @@ public class StreamsDemo {
 //                .collect(Collectors.groupingBy(Movie::getGenre, Collectors.counting()));
 //        System.out.println(genreMap);
 
+        var lists = string.chars()
+                .mapToObj(c -> (char) c)
+                .map(c -> Integer.parseInt(String.valueOf(c)))
+                .collect(Collectors.partitioningBy(c -> c > 3));
+        System.out.println(lists);
+
         //partitioning
-        var partitionedMovies = movies.stream()
-                .collect(Collectors.partitioningBy(isSuperAwesome,
-                        Collectors.mapping(Movie::getTitle,Collectors.joining(", "))));
-        System.out.println(partitionedMovies);
+//        var partitionedMovies = movies.stream()
+//                .collect(Collectors.partitioningBy(isSuperAwesome,
+//                        Collectors.mapping(Movie::getTitle,Collectors.joining(", "))));
+//        System.out.println(partitionedMovies);
 
 
     }
