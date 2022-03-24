@@ -5,7 +5,7 @@ import java.util.function.Function;
 
 public class LambdasDemo {
     public static void show() {
-//        greet(System.out::println);
+        greet(System.out::println);
 
         Function<String, String> replaceColon = str -> str.replace(":", "=");
         Function<String, String> addBraces = str -> "{" + str + "}";

@@ -12,8 +12,7 @@ public class CollectionsDemo {
         collection.clear();
         System.out.println(collection);
 
-        Collection<String> other = new ArrayList<String>();
-        other.addAll(collection);
+        Collection<String> other = new ArrayList<>(collection);
         System.out.println(collection == other);
         System.out.println(collection.equals(other));
     }

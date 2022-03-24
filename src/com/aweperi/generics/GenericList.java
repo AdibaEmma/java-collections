@@ -1,6 +1,10 @@
 package com.aweperi.generics;
 
-public class GenericList<T> {
+import org.jetbrains.annotations.NotNull;
+
+import java.util.Iterator;
+
+public class GenericList<T> implements Iterable<T>{
     private final T[] items = (T[]) new Object[10];
     private int count;
 
@@ -10,5 +14,11 @@ public class GenericList<T> {
 
     public T get(int index) {
         return items[index];
+    }
+
+    @NotNull
+    @Override
+    public Iterator<T> iterator() {
+        return null;
     }
 }
