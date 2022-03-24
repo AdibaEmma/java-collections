@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/lambdas/ConsolePrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/collections/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/collections/CollectionsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/generics/GenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/generics/GenericList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aweperi/lambdas/LambdasDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/lambdas/LambdasDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,13 +99,13 @@
       <recent name="com.aweperi.inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aweperi.streams.Main" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.lambdas.Main" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aweperi.streams.*" />
+          <option name="PATTERN" value="com.aweperi.lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Node.js.test.js" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +206,8 @@
       <workItem from="1647371004511" duration="1453000" />
       <workItem from="1647425273935" duration="8316000" />
       <workItem from="1647857407276" duration="3538000" />
-      <workItem from="1648022096293" duration="5561000" />
+      <workItem from="1648022096293" duration="10255000" />
+      <workItem from="1648133773423" duration="327000" />
     </task>
     <servers />
   </component>
