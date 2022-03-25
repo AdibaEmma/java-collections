@@ -14,9 +14,8 @@ public class StreamsDemo {
                 new Movie("Harry Potter", Genre.THRILL, 1500, 5)
         );
 
-        var string = "123456789";
-
         Predicate<Movie> isSuperAwesome = m -> m.getRating() > 4;
+
 //        // Map
 //        movies.stream()
 //                .map(Movie::getLikes)
@@ -34,7 +33,6 @@ public class StreamsDemo {
 //                .forEach(m -> System.out.println(m));
 
         // Slicing
-//
 //        movies.stream()
 //                .skip(1)
 //                .takeWhile(isSuperAwesome)
@@ -43,6 +41,12 @@ public class StreamsDemo {
 //        //Sorting
 //        movies.stream()
 //                .sorted(Comparator.comparing(Movie::getRating).reversed())
+//                .forEach(System.out::println);
+
+        // Selecting Distinct
+//        movies.stream()
+//                .map(Movie::getLikes)
+//                .distinct()
 //                .forEach(System.out::println);
 //
 //        //reducers
@@ -62,7 +66,7 @@ public class StreamsDemo {
 //        var genreMap = movies.stream()
 //                .collect(Collectors.groupingBy(Movie::getGenre, Collectors.counting()));
 //        System.out.println(genreMap);
-
+        var string = "1234567890";
         var lists = string.chars()
                 .mapToObj(c -> (char) c)
                 .map(c -> Integer.parseInt(String.valueOf(c)))
