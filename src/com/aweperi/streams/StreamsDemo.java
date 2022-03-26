@@ -65,13 +65,7 @@ public class StreamsDemo {
 //        //grouping
 //        var genreMap = movies.stream()
 //                .collect(Collectors.groupingBy(Movie::getGenre, Collectors.counting()));
-//        System.out.println(genreMap);
-        var string = "1234567890";
-        var lists = string.chars()
-                .mapToObj(c -> (char) c)
-                .map(c -> Integer.parseInt(String.valueOf(c)))
-                .collect(Collectors.partitioningBy(c -> c > 3));
-        System.out.println(lists);
+//        System.out.println(genreMap)
 
         //partitioning
 //        var partitionedMovies = movies.stream()
@@ -79,6 +73,11 @@ public class StreamsDemo {
 //                        Collectors.mapping(Movie::getTitle,Collectors.joining(", "))));
 //        System.out.println(partitionedMovies);
 
-
+        var string = "1234567890";
+        var lists = string.chars()
+                .mapToObj(c -> (char) c)
+                .map(c -> Integer.parseInt(String.valueOf(c)))
+                .collect(Collectors.partitioningBy(c -> c > 3));
+        System.out.println(lists);
     }
 }
