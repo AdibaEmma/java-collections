@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/concurrency/DownloadFileTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/concurrency/DownloadStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/concurrency/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/concurrency/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/executors/ExecutorsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/executors/LongTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/executors/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmingwithmosh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/programmingwithmosh.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/interfaces/Draggable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/interfaces/Draggable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +103,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.executors.Main" />
+      <module name="programmingwithmosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aweperi.executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aweperi.lambdas.Main" />
       <module name="programmingwithmosh" />
@@ -164,10 +174,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Node.js.test.js" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +228,7 @@
       <workItem from="1648262956468" duration="7000" />
       <workItem from="1648456051050" duration="5093000" />
       <workItem from="1649764338436" duration="190000" />
-      <workItem from="1649880375808" duration="9567000" />
+      <workItem from="1649880375808" duration="12773000" />
     </task>
     <servers />
   </component>
