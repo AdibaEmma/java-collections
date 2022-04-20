@@ -6,16 +6,18 @@ import java.util.function.Supplier;
 
 public class CompletableFuturesDemo {
     public static void show() {
-        Supplier<Integer> task = () -> 1;
-        var future = CompletableFuture.supplyAsync(task);
+        var future = CompletableFuture.supplyAsync(() -> {
+            System.out.println("Getting temperature");
+            throw new IllegalArgumentException();
+        });
+
         try {
-            System.out.println("Getting Results");
-            var result = future.get();
-            System.out.println("Result is: " + result);
-        } catch (InterruptedException | ExecutionException e) {
+            var temperature = future.exceptionally(ex -> 1).get();
+            System.out.println(temperature);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
             e.printStackTrace();
         }
-
-        future.thenRun(() -> System.out.println("Done"));
     }
 }
