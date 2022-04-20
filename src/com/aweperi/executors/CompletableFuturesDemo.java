@@ -5,17 +5,18 @@ import java.util.concurrent.ExecutionException;
 import java.util.function.Supplier;
 
 public class CompletableFuturesDemo {
-    public static CompletableFuture<String> getUserEmailAsync() {
-        return CompletableFuture.supplyAsync(() -> "email");
-    }
-
-    public static CompletableFuture<String> getUserPlaylistAsync(String email) {
-        return CompletableFuture.supplyAsync(() -> "playlist");
-    }
 
     public static void show() {
-        getUserEmailAsync()
-                .thenCompose(CompletableFuturesDemo::getUserPlaylistAsync)
-                .thenAccept(System.out::println);
+        var first = CompletableFuture
+                .supplyAsync(() -> "20USD")
+                .thenApply(str -> {
+                    var price = str.replace("USD", "");
+                    return Integer.parseInt(price);
+                });
+
+        var second = CompletableFuture.supplyAsync(() -> 0.9);
+        first
+            .thenCombine(second, (price, exchangeRate) -> price * exchangeRate)
+            .thenAccept(System.out::println);
     }
 }
