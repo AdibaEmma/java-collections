@@ -5,19 +5,13 @@ import java.util.concurrent.ExecutionException;
 import java.util.function.Supplier;
 
 public class CompletableFuturesDemo {
+    public static int toFarhenheit(int celsius) {
+        return (int) (celsius * 1.8) + 32;
+    }
     public static void show() {
-        var future = CompletableFuture.supplyAsync(() -> {
-            System.out.println("Getting temperature");
-            throw new IllegalArgumentException();
-        });
-
-        try {
-            var temperature = future.exceptionally(ex -> 1).get();
-            System.out.println(temperature);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        }
+        var future = CompletableFuture.supplyAsync(() -> 20);
+        future
+                .thenApply(CompletableFuturesDemo::toFarhenheit)
+                .thenAccept(System.out::println);
     }
 }
