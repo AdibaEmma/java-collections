@@ -16,5 +16,6 @@ public class CompletableFuturesDemo {
             e.printStackTrace();
         }
 
+        future.thenRun(() -> System.out.println("Done"));
     }
 }
