@@ -5,13 +5,17 @@ import java.util.concurrent.ExecutionException;
 import java.util.function.Supplier;
 
 public class CompletableFuturesDemo {
-    public static int toFarhenheit(int celsius) {
-        return (int) (celsius * 1.8) + 32;
+    public static CompletableFuture<String> getUserEmailAsync() {
+        return CompletableFuture.supplyAsync(() -> "email");
     }
+
+    public static CompletableFuture<String> getUserPlaylistAsync(String email) {
+        return CompletableFuture.supplyAsync(() -> "playlist");
+    }
+
     public static void show() {
-        var future = CompletableFuture.supplyAsync(() -> 20);
-        future
-                .thenApply(CompletableFuturesDemo::toFarhenheit)
+        getUserEmailAsync()
+                .thenCompose(CompletableFuturesDemo::getUserPlaylistAsync)
                 .thenAccept(System.out::println);
     }
 }
