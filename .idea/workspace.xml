@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/executors/FlightService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/executors/Quote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aweperi/executors/CompletableFuturesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/executors/CompletableFuturesDemo.java" afterDir="false" />
     </list>
@@ -227,7 +229,7 @@
       <workItem from="1648456051050" duration="5093000" />
       <workItem from="1649764338436" duration="190000" />
       <workItem from="1649880375808" duration="24165000" />
-      <workItem from="1650454664121" duration="1783000" />
+      <workItem from="1650454664121" duration="4086000" />
     </task>
     <servers />
   </component>

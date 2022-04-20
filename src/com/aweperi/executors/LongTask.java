@@ -1,9 +1,9 @@
 package com.aweperi.executors;
 
 public class LongTask {
-    public static void simulate() {
+    public static void simulate(int delay) {
         try {
-            Thread.sleep(3000);
+            Thread.sleep(delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

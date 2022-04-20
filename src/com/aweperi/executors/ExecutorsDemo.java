@@ -9,7 +9,7 @@ public class ExecutorsDemo {
         var executorService = Executors.newFixedThreadPool(2);
         try{
             var future = executorService.submit(() -> {
-                LongTask.simulate();
+                LongTask.simulate(3_000);
                 return 1;
             });
             System.out.println("Do more work");
