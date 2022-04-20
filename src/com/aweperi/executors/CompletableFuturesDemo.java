@@ -7,16 +7,20 @@ import java.util.function.Supplier;
 public class CompletableFuturesDemo {
 
     public static void show() {
-        var first = CompletableFuture
-                .supplyAsync(() -> "20USD")
-                .thenApply(str -> {
-                    var price = str.replace("USD", "");
-                    return Integer.parseInt(price);
-                });
-
-        var second = CompletableFuture.supplyAsync(() -> 0.9);
-        first
-            .thenCombine(second, (price, exchangeRate) -> price * exchangeRate)
-            .thenAccept(System.out::println);
+        var first = CompletableFuture.supplyAsync(() -> 1);
+        var second = CompletableFuture.supplyAsync(() -> 2);
+        var third = CompletableFuture.supplyAsync(() -> 3);
+        var all = CompletableFuture.allOf(first, second, third);
+        all.thenRun(() -> {
+            try {
+                var result = first.get() + second.get() + third.get();
+                System.out.println(result);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                e.printStackTrace();
+            }
+            System.out.println("All tasks completed");
+        });
     }
 }
