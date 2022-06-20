@@ -11,5 +11,7 @@ public class Hashsets {
         hs.add("Geeks");
         hs.add("Is");
         hs.add("Very helpful");
+
+        System.out.println(hs);
     }
 }

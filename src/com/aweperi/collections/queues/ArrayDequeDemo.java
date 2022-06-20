@@ -6,10 +6,13 @@ This is a special kind of array that grows and allows users to add or remove an 
 Array dequeues have no capacity restrictions, and they grow as necessary to support usage. Let's understand ArrayDeque with an example:
  */
 
-public class ArrayDeque {
+import java.util.ArrayDeque;
+import java.util.Queue;
+
+public class ArrayDequeDemo {
     public static void main(String[] args) {
 
-        java.util.ArrayDeque<Integer> de_que = new java.util.ArrayDeque<Integer>(10);
+        ArrayDeque<Integer> de_que = new ArrayDeque<>(10);
 
         de_que.add(10);
         de_que.add(20);

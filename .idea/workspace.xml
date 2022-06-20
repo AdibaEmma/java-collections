@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/executors/FlightService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/executors/Quote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/memento/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/memento/EditorState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/memento/History.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/memento/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/executors/CompletableFuturesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/executors/CompletableFuturesDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/collections/queues/ArrayDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/collections/queues/ArrayDequeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/collections/queues/PriorityQueues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/collections/queues/PriorityQueues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/collections/sets/Hashsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/collections/sets/Hashsets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,38 +107,25 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Hashsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.collections.sets.Hashsets" />
+      <module name="programmingwithmosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aweperi.collections.sets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aweperi.executors.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.design_patterns.memento.Main" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aweperi.executors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aweperi.lambdas.Main" />
-      <module name="programmingwithmosh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aweperi.lambdas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aweperi.generics.Main" />
-      <module name="programmingwithmosh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aweperi.generics.*" />
+          <option name="PATTERN" value="com.aweperi.design_patterns.memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,14 +159,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PriorityQueues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.collections.queues.PriorityQueues" />
+      <module name="programmingwithmosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aweperi.collections.queues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/aweperi/test.js" working-dir="$PROJECT_DIR$/src/com/aweperi">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Hashsets" />
+        <item itemvalue="Application.PriorityQueues" />
         <item itemvalue="Node.js.test.js" />
         <item itemvalue="Application.Main" />
       </list>
@@ -229,7 +233,15 @@
       <workItem from="1648456051050" duration="5093000" />
       <workItem from="1649764338436" duration="190000" />
       <workItem from="1649880375808" duration="24165000" />
-      <workItem from="1650454664121" duration="4086000" />
+      <workItem from="1650454664121" duration="4420000" />
+      <workItem from="1652092724724" duration="332000" />
+      <workItem from="1654861162666" duration="2229000" />
+      <workItem from="1655108791954" duration="1441000" />
+      <workItem from="1655195978240" duration="591000" />
+      <workItem from="1655241260873" duration="683000" />
+      <workItem from="1655287293218" duration="1187000" />
+      <workItem from="1655468088249" duration="1718000" />
+      <workItem from="1655716948634" duration="4715000" />
     </task>
     <servers />
   </component>

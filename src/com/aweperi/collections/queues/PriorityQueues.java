@@ -16,6 +16,7 @@ public class PriorityQueues {
         pQueue.add(10);
         pQueue.add(20);
         pQueue.add(15);
+        pQueue.add(8);
 
         System.out.println(pQueue.peek());
 
