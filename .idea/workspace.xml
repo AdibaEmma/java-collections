@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/memento/Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/memento/EditorState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/memento/History.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/memento/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/state/BrushTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/state/Canvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/state/EraserTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/state/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/state/SelectionTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/state/Tool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/state/ToolType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/collections/queues/ArrayDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/collections/queues/ArrayDequeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/collections/queues/PriorityQueues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/collections/queues/PriorityQueues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/collections/sets/Hashsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/collections/sets/Hashsets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +24,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Kotlin Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -102,11 +102,14 @@
       <recent name="com.aweperi.myTubeProj" />
       <recent name="com.aweperi.interfaces" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.aweperi.design_patterns" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.aweperi.inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Hashsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aweperi.collections.sets.Hashsets" />
       <module name="programmingwithmosh" />
@@ -133,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aweperi.exceptions.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.design_patterns.state.Main" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aweperi.exceptions.*" />
+          <option name="PATTERN" value="com.aweperi.design_patterns.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Hashsets" />
         <item itemvalue="Application.PriorityQueues" />
         <item itemvalue="Node.js.test.js" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +244,7 @@
       <workItem from="1655241260873" duration="683000" />
       <workItem from="1655287293218" duration="1187000" />
       <workItem from="1655468088249" duration="1718000" />
-      <workItem from="1655716948634" duration="4715000" />
+      <workItem from="1655716948634" duration="8112000" />
     </task>
     <servers />
   </component>
