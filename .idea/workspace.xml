@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/strategy/BlackAndWhiteFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/strategy/HighContrastFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/strategy/JpegCompressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/strategy/PngCompressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/template/AuditTrail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/design_patterns/strategy/Compressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/strategy/Compressor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/design_patterns/strategy/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/strategy/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/design_patterns/strategy/ImageStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/strategy/ImageStorage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +246,7 @@
       <workItem from="1655468088249" duration="1718000" />
       <workItem from="1655716948634" duration="10078000" />
       <workItem from="1655848625597" duration="1314000" />
-      <workItem from="1655850011030" duration="11467000" />
+      <workItem from="1655850011030" duration="13352000" />
     </task>
     <servers />
   </component>
