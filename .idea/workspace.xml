@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/design_patterns/memento/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/memento/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/design_patterns/memento/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/memento/History.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/design_patterns/iterator/BrowseHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/iterator/BrowseHistory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,18 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/aweperi/design_patterns/command/AddCustomerCommand.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/aweperi/design_patterns/state/ToolType.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/aweperi/design_patterns/state/Canvas.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/aweperi/design_patterns/memento/Editor.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/aweperi/design_patterns/command/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/aweperi/design_patterns/state/BrushTool.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/aweperi/design_patterns/memento/EditorState.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/aweperi/design_patterns/memento/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/aweperi/design_patterns/state/SelectionTool.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/aweperi/design_patterns/state/Tool.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="minikube" />
     <option name="namespace" value="default" />
@@ -75,7 +86,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Emma/JSoup-webScraping-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../News Aggregator/Gitlab/news-aggregator" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -107,7 +118,7 @@
       <recent name="com.aweperi.inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aweperi.design_patterns.state.Main" />
       <module name="programmingwithmosh" />
@@ -197,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +286,9 @@
       <workItem from="1663002749003" duration="583000" />
       <workItem from="1665570081429" duration="1437000" />
       <workItem from="1666084407562" duration="2220000" />
-      <workItem from="1666164804630" duration="950000" />
+      <workItem from="1666164804630" duration="5996000" />
+      <workItem from="1666602479342" duration="778000" />
+      <workItem from="1666775083939" duration="4199000" />
     </task>
     <servers />
   </component>
