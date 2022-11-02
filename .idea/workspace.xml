@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/design_patterns/iterator/BrowseHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/iterator/BrowseHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aweperi/design_patterns/command/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/command/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +118,7 @@
       <recent name="com.aweperi.inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aweperi.design_patterns.state.Main" />
       <module name="programmingwithmosh" />
@@ -208,9 +208,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
       </list>
@@ -288,7 +288,11 @@
       <workItem from="1666084407562" duration="2220000" />
       <workItem from="1666164804630" duration="5996000" />
       <workItem from="1666602479342" duration="778000" />
-      <workItem from="1666775083939" duration="4199000" />
+      <workItem from="1666775083939" duration="10335000" />
+      <workItem from="1667290821189" duration="1222000" />
+      <workItem from="1667293148425" duration="1754000" />
+      <workItem from="1667315110423" duration="1237000" />
+      <workItem from="1667381116175" duration="654000" />
     </task>
     <servers />
   </component>
