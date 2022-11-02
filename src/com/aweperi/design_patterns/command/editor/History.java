@@ -15,4 +15,6 @@ public class History {
     public UndoableCommand pop() {
         return commands.pop();
     }
+    
+    public int size() { return commands.size(); }
 }
