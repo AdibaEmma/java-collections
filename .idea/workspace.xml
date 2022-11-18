@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="80cee5c0-5973-4152-a32d-369b48413f78" name="Changes" comment="squash! extract mortage-related-code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/design_patterns/command/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/command/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aweperi/design_patterns/command/editor/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aweperi/design_patterns/command/editor/History.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.43908045" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.grazie" />
+    <property name="settings.editor.selected.configurable" value="preferences.rainbow.brackets" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -119,20 +117,7 @@
       <recent name="com.aweperi.inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aweperi.design_patterns.state.Main" />
-      <module name="programmingwithmosh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aweperi.design_patterns.state.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aweperi.design_patterns.strategy.Main" />
       <module name="programmingwithmosh" />
@@ -186,6 +171,32 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.design_patterns.observer.Main" />
+      <module name="programmingwithmosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aweperi.design_patterns.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aweperi.design_patterns.observer.Main" />
+      <module name="programmingwithmosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aweperi.design_patterns.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aweperi.design_patterns.template.Main" />
       <module name="programmingwithmosh" />
       <extension name="coverage">
@@ -209,11 +220,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +303,14 @@
       <workItem from="1667290821189" duration="1222000" />
       <workItem from="1667293148425" duration="1754000" />
       <workItem from="1667315110423" duration="1237000" />
-      <workItem from="1667381116175" duration="2806000" />
+      <workItem from="1667381116175" duration="3480000" />
+      <workItem from="1667550513591" duration="590000" />
+      <workItem from="1667811415999" duration="4695000" />
+      <workItem from="1667995801182" duration="914000" />
+      <workItem from="1668065859966" duration="2060000" />
+      <workItem from="1668163008531" duration="596000" />
+      <workItem from="1668413293542" duration="2136000" />
+      <workItem from="1668515231295" duration="553000" />
     </task>
     <servers />
   </component>
